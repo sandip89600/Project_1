@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
@@ -235,7 +234,7 @@ body {
     background-color: #ededed;
 }
 
-.section-2 > div {
+.section-2>div {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
@@ -417,8 +416,8 @@ body {
 }
 
 
-.round2{
-        display: inline-block;
+.round2 {
+    display: inline-block;
     border-radius: 60px;
     background-color: #c4edfd;
     color: #10466f;
@@ -427,52 +426,60 @@ body {
     font-weight: 600;
 }
 
-.box{
+.box {
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.box1{
+.box1 {
     width: 200px;
     border-radius: 10px;
     height: 170px;
     background-color: #10192C;
+    padding: 15px;
 }
-.box2{
-    width: 200px;
-    border-radius: 10px;
-    height: 170px;
-    background-color: #10192C;
-}
-.box3{
-    width: 200px;
-    border-radius: 10px;
-    height: 170px;
-    background-color: #10192C;
-}
-.box4{
+
+.box2 {
     width: 200px;
     border-radius: 10px;
     height: 170px;
     background-color: #10192C;
 }
 
-.text{
+.box3 {
+    width: 200px;
+    border-radius: 10px;
+    height: 170px;
+    background-color: #10192C;
+}
+
+.box4 {
+    width: 200px;
+    border-radius: 10px;
+    height: 170px;
+    background-color: #10192C;
+}
+
+.text {
     font-size: 40px;
     color: #f0f0f0;
 }
 
-.flx{
+.flx {
     display: flex;
-    
+
 }
-.text{
+
+.text {
     padding-top: 10px;
 }
-.txt{
+
+.txt {
     padding-top: 20px;
     color: #f0f0f0;
     font-weight: 600;
@@ -480,7 +487,8 @@ body {
     text-transform: uppercase;
     padding-left: 5px;
 }
-.txt2{
+
+.txt2 {
     color: #f0f0f0;
     font-weight: 800;
     text-transform: uppercase;
@@ -488,19 +496,19 @@ body {
     padding-top: 5px;
 }
 
-.metro{
+.metro {
     color: #ededed;
     font-size: 13px;
 }
 
 
 
-.grps{
+.grps {
     color: #ededed;
     padding: 14px;
 }
 
-.exp{
+.exp {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
@@ -508,162 +516,101 @@ body {
     text-align: left;
 }
 
-.tons{
+.tons {
     text-align: left;
     font-weight: 800;
 }
-.hub{
+
+.hub {
     font-size: 14px;
     text-align: left;
 
-}   
+}
 
-.p{
+.p {
     padding: 15px;
 }
-.dot{
+
+.dot {
     padding-right: 25px;
     color: rgb(98, 234, 98);
 }
-.dot2{
+
+.dot2 {
     padding-right: 25px;
     color: rgb(234, 225, 98);
 }
 
-.md{
+.md {
     color: rgb(98, 234, 98);
     font-weight: 500;
     font-size: 17px;
     text-transform: uppercase;
 }
-.md2{
+
+.md2 {
     color: rgb(234, 225, 98);
     font-weight: 500;
     font-size: 17px;
     text-transform: uppercase;
 }
 
-.tal{
+.tal {
     font-weight: 800;
     font-size: 33px;
 }
 
-.gram{
+.gram {
     font-size: 12px;
     color: #abaaaa;
 }
 
-.dashboard-card {
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    width: 100%;
-    max-width: 750px;
-    padding: 24px;
-}
-
-/* Header Section */
-.card-header {
+.recta {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 30px;
+    justify-content: center;
+    gap: 30px;
 }
 
-.card-title {
-    font-size: 1.15rem;
-    color: #333333;
-    font-weight: 700;
+.rect {
+    width: 200px;
+    height: 220px;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid #cccbcb;
+    border-radius: 10px;
+    padding: 15px;
 }
 
-.badge {
-    background-color: #fff3e0;
-    color: #e65100;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 600;
+.dress {
+    padding-top: 15px;
+    font-size: 25px;
+    color: orangered;
 }
 
-/* Chart Layout */
-.chart-container {
-    display: flex;
-    height: 300px;
-    position: relative;
+.num {
+    font-size: 40px;
+    font-weight: bolder;
 }
 
-/* Y-Axis Labels */
-.y-axis {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-right: 15px;
-    color: #888888;
-    font-size: 0.75rem;
-    font-weight: 500;
-    width: 35px;
-    border-right: 1px solid #e0e0e0;
+.num1 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 35px;
+
 }
 
-/* Bars Main Container */
-.bars-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    flex-grow: 1;
-    padding-left: 20px;
-    position: relative;
+.num3 {
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
-/* Individual Bar Wrapper */
-.bar-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 18%;
-    height: 100%;
-    justify-content: flex-end;
+.rati {
+    color: #8e8e8e;
+    text-transform: uppercase;
 }
 
-/* Base Bar Styling */
-.bar {
-    width: 100%;
-    border-radius: 6px 6px 0 0;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-.bar:hover {
-    transform: scaleY(1.03);
-}
-
-/* Bar Colors (Matched with Image) */
-.bar-blue {
-    background: linear-gradient(to top, #2980b9, #3498db);
-}
-
-.bar-green {
-    background: linear-gradient(to top, #27ae60, #2ecc71);
-}
-
-.bar-orange {
-    background: linear-gradient(to top, #d35400, #e67e22);
-}
-
-.bar-pink {
-    background: linear-gradient(to top, #c0392b, #e74c3c);
-}
-
-/* X-Axis Labels */
-.bar-label {
-    margin-top: 12px;
-    font-size: 0.7rem;
-    color: #666666;
-    text-align: center;
-    white-space: nowrap;
-    font-weight: 500;
-}
 
 
 
