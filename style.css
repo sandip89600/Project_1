@@ -427,11 +427,12 @@ body {
 }
 
 .box {
-    width: auto;
-    height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+       justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
     padding-top: 5%;
     padding-bottom: 5%;
 }
