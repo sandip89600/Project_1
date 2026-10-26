@@ -1009,6 +1009,135 @@ body {
         font-weight: lighter;
     }
 
+  .footer-portal {
+    width: 100%;
+    background-color: #0b1120; /* Deep dark navy matching the image */
+    color: #94a3b8;
+    font-family: inherit;
+    padding: 50px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1 1 250px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-brand h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.brand-icon {
+    font-size: 20px;
+}
+
+.footer-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #94a3b8;
+    margin: 0;
+}
+
+.footer-col h4 {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.links-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-col li {
+    margin-bottom: 12px;
+}
+
+.links-col a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.links-col a:hover {
+    color: #ffffff;
+}
+
+.address-col p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 0 12px 0;
+}
+
+.footer-email a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.footer-email a:hover {
+    text-decoration: underline;
+}
+
+.footer-divider {
+    max-width: 1200px;
+    height: 1px;
+    background-color: #1e293b;
+    margin: 40px auto 20px auto;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 13px;
+    color: #64748b;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* Responsive adjustments for smaller tablets and mobile screens */
+@media (max-width: 768px) {
+    .footer-container {
+        gap: 30px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+
+
 
 /* Tablet Responsive */
 @media (max-width: 1100px) {
