@@ -2467,3 +2467,172 @@ header a:hover {
         font-size: 17px;
     }
 }
+
+
+
+/* Section Container */
+.section-3 {
+    width: 100%;
+    background-color: #f8fafc;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.section-3-about {
+    margin-bottom: 35px;
+}
+
+.section-subtitle {
+    color: #ea580c;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0 0 8px 0;
+}
+
+.section-desc {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* Cards Grid Container */
+.section-3-about-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual Card */
+.s3ac01 {
+    flex: 1 1 260px;
+    max-width: 280px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.s3ac01:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+}
+
+/* Top Row (Ward Tag & Icon) */
+.ss301 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.ward-tag {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.card-top-icon {
+    font-size: 1rem;
+    color: #64748b;
+}
+
+/* Profile Row (Avatar + Details) */
+.profile-content-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.member-avatar-box {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1.5px solid #cbd5e1;
+}
+
+.member-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ss302 h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0 0 3px 0;
+    line-height: 1.3;
+}
+
+.ss302 h5 {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #ea580c; /* Portfolio Orange */
+    margin: 0;
+    line-height: 1.3;
+}
+
+/* Divider Line */
+.card-divider {
+    border: none;
+    border-top: 1px solid #f1f5f9;
+    margin: 12px 0;
+}
+
+/* Phone Contact Footer */
+.ss303 p {
+    margin: 0;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #334155;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ss303 p i {
+    color: #64748b;
+    font-size: 0.82rem;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 992px) {
+    .section-3 {
+        padding: 40px 16px;
+    }
+    .s3ac01 {
+        flex: 1 1 calc(50% - 20px); /* 2 cards per row on tablets */
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+    .s3ac01 {
+        flex: 1 1 100%; /* 1 card per row on mobile */
+        max-width: 100%;
+    }
+}
