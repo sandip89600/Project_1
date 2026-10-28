@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nashik City | About Vani Village</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        referrerpolicy="no-referrer">
+
+    <!-- Your complete stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Notice Bar -->
+    <div class="notice">
+        <h3>Notice / सूचना</h3>
+        <marquee behavior="scroll" direction="left">
+            💧 Water supply pipeline maintenance scheduled on Thursday 2 PM - 6 PM /
+            रविवारी सकाळी ७ वाजता रामकुंड परिसरात विशेष स्वच्छता मोहीम.
+        </marquee>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="heading">
+        <a href="index.html" aria-label="Nashik City home">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="Nashik City Logo">
+                <h2>Nashik City</h2>
+            </div>
+        </a>
+
+        <nav class="navbar" id="navbar" aria-label="Main navigation">
+            <ul class="nav-links" id="nav-links">
+                 <li><a href="#home">Home</a></li>
+                <li><a href="/about.html">About Vani</a></li>
+                <li><a href="#panchayat">Gram Panchayat</a></li>
+                <li><a href="#services">Rural Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="nav-links" type="button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section-1" aria-labelledby="about-title">
+            <div class="about-container">
+                <!-- LEFT SIDE: SLIDER -->
+                <div class="about-slider">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+                        data-interval="5000">
+                        <ol class="carousel-indicators custom-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/aboutgrape.jpg"
+                                    alt="Grape orchards and vineyards near Vani">
+                                <div class="slider-overlay">
+                                    <span class="badge-tag">Grape Capital</span>
+                                    <h4 class="overlay-title">Lush Grape Orchards &amp; Vineyards</h4>
+                                    <p class="overlay-desc">Export-quality table grapes grown around Vani.</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/about-gram.jpg"
+                                    alt="Gram Panchayat administrative building">
+                                <div class="slider-overlay">
+                                    <span class="badge-tag">Administrative Hub</span>
+                                    <h4 class="overlay-title">Gram Panchayat Administrative Hub</h4>
+                                    <p class="overlay-desc">Serving citizens across Dindori Tehsil, Nashik District.</p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/mata.jpg"
+                                    alt="Saptashrungi Nivasini Devi Temple">
+                                <div class="slider-overlay">
+                                    <span class="badge-tag">Sacred Shrine</span>
+                                    <h4 class="overlay-title">Saptashrungi Nivasini Devi Temple</h4>
+                                    <p class="overlay-desc">A gateway to the revered Shakti Peeth pilgrimage site.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev circle-btn" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev" aria-label="Previous slide">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next circle-btn" href="#carouselExampleIndicators" role="button"
+                            data-slide="next" aria-label="Next slide">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE: INFORMATION -->
+                <div class="about-info">
+                    <div class="location-tag">
+                        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                        Dindori Tehsil, Nashik District
+                    </div>
+
+                    <h1 class="main-title" id="about-title">Welcome to Vani Village</h1>
+                    <p class="main-description">
+                        Nestled at the foothills of the Sahyadri mountain range in Nashik district, Vani is a major
+                        historical and commercial village famous as a base for pilgrimage to the holy Saptashrungi
+                        Nivasini Devi Temple (Gad). Vani is also an agricultural hub, celebrated for its grape
+                        vineyards and onion markets.
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon text-orange"><i class="fa-solid fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="stat-value">24,500+</div>
+                            <div class="stat-label">Population</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon text-green"><i class="fa-solid fa-seedling" aria-hidden="true"></i>
+                            </div>
+                            <div class="stat-value">3,800+</div>
+                            <div class="stat-label">Agro Hectares</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon text-amber"><i class="fa-solid fa-gopuram" aria-hidden="true"></i>
+                            </div>
+                            <div class="stat-value">1.5M+</div>
+                            <div class="stat-label">Annual Pilgrims</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon text-blue"><i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+                            </div>
+                            <div class="stat-value">8 Wards</div>
+                            <div class="stat-label">Panchayat Wards</div>
+                        </div>
+                    </div>
+
+                    <div class="feature-badges">
+                        <span class="feature-tag"><i class="fa-solid fa-wine-glass-starter text-green"
+                                aria-hidden="true"></i> Grape Export Hub</span>
+                        <span class="feature-tag"><i class="fa-solid fa-om text-orange" aria-hidden="true"></i> Shakti
+                            Peeth Gateway</span>
+                        <span class="feature-tag"><i class="fa-solid fa-bus text-blue" aria-hidden="true"></i>
+                            Dindori-Kalwan Transit</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section-2">
+            <div class="about-container2 text-center">
+                <h6>Panchayat Leadership</h6>
+                <h2>Sarpanch & Gram Sabha Administrati</h2>
+                <span></span>
+            </div>
+            <div class="about-container-card">
+                <div class="about-container-box">
+                    <h6 class="ach61">Sarpanch</h6>
+                    <div class="ach061">
+                        <div class="ach-01"><i class="fa-solid fa-user-tie"></i></div>
+                        <div class="ach-001">
+                            <h5>Smt. Savita R. Deshmukh</h5>
+                            <h6>Sarpanch, Gram Panchayat Vani</h6>
+                            <p> +91 98220 XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="about-container-card-0001">
+                        <p> “Our aim is to make Vani a benchmark Smart Village with clean drinking water, 100% solar
+                            lighting, enhanced facilities for pilgrims, and strong support for our grape farmers.”</p>
+                    </div>
+                </div>
+                <div class="about-container-box">
+                    <h6 class="ach62">Deputy Sarpanch</h6>
+                    <div class="ach061">
+                        <div class="ach-02"><i class="fa-solid fa-user"></i></div>
+                        <div class="ach-002">
+                            <h5>Shri. Ramesh G. Patil</h5>
+                            <h6>Deputy Sarpanch</h6>
+                            <p> +91 98220 XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="about-container-card-0001">
+                        <p>Focusing on infrastructure upgrades, internal concrete roads, drainage networks, and youth
+                            empowerment projects across all 8 wards.</p>
+                    </div>
+
+                </div>
+                <div class="about-container-box">
+                    <h6 class="ach63">Gram Sevak</h6>
+                    <div class="ach061">
+                        <div class="ach-03"><i class="fa-solid fa-address-card"></i></div>
+                        <div class="ach-003">
+                            <h5>Shri. Anil K. Shinde</h5>
+                            <h6>Village Development Officer</h6>
+                            <p> gramsevak.vani@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="about-container-card-0001">
+                        <p>Managing daily administrative services, birth/death certificates, property tax records, and
+                            government welfare scheme implementation.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+
+            <div class="text-011">
+                <div class="about-upcoming-assmebly">
+                    <div class="public-partition">
+                        <div class="public-partition-01">
+                            <h5>Public Participation</h5>
+                            <h4>Gram Sabha Assembly Schedule & Decisions</h4>
+                        </div>
+                        <div class="public-partition-02">
+                            <h5>Upcoming Assembly</h5>
+                            <h6>Past Resolutions</h6>
+                        </div>
+                    </div>
+
+                    <div class="assmbly-01">
+                        <div class="asmby-001 text-left">
+                            <h6>Next Scheduled Date</h6>
+                            <h4> <i class="fa-solid fa-calendar"></i>15th Nov 2026 | 11:00 AM</h4>
+                            <p>Location: Gram Panchayat Hall, Main Market Road, Vani.</p>
+                        </div>
+                        <div class="asmby-002">
+                            <h6>Key Agenda Items for Discussion</h6>
+                            <p><i class="fa-solid fa-check"></i>Review of Jal Jeevan Mission drinking water pipeline extension work.</p>
+                            <p><i class="fa-solid fa-check"></i>Approval of annual development budget for Financial Year 2027-28.</p>
+                            <p><i class="fa-solid fa-check"></i>Pilgrim crowd management strategy for upcoming Navratri festival at Saptashrungi Gad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
