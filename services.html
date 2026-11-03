@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vani | About Vani Village</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        referrerpolicy="no-referrer">
+
+    <!-- Your complete stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Notice Bar -->
+    <div class="notice">
+        <h3>Notice / सूचना</h3>
+        <marquee behavior="scroll" direction="left">
+            💧 Water supply pipeline maintenance scheduled on Thursday 2 PM - 6 PM /
+            रविवारी सकाळी ७ वाजता रामकुंड परिसरात विशेष स्वच्छता मोहीम.
+        </marquee>
+        <button class="language-toggle" type="button" aria-label="Switch to Marathi">मराठी</button>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="heading">
+        <a href="index.html" aria-label="Vani home">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="Vani Logo">
+                <h2>I <i class="fa-solid fa-heart text-danger "></i> Vani</h2>
+            </div>
+        </a>
+
+        <nav class="navbar" id="navbar" aria-label="Main navigation">
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/about.html">About Vani</a></li>
+                <li><a href="services.html">Rural Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="nav-links" type="button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <body>
+
+        <section class="services-section-1">
+            <div class="serv-s01 ">
+                <h6><i class="fa-solid fa-shield-halved"></i>Official Digital Panchayati Raj Citizen Window</h6>
+
+                <h1>Empowering Villages with Direct Digital <br> Services</h1>
+                <p>Access vital government welfare portals, register grievances for village basic amenities, <br> and
+                    connect instantly with emergency authorities—all in one place.</p>
+                <div class="btn">
+                    <button class="button1"><i class="fa-solid fa-pen-to-square"></i> File Public Complaint</button>
+                    <button class="button2"><i class="fa-solid fa-warning"></i>Village Helpline Numbers</button>
+                </div>
+            </div>
+        </section>
+      
+        
+    <section class="services-section">
+  <!-- Section Header & Search Bar -->
+  <header class="services-section__header">
+    <div class="services-section__title-group">
+      <span class="services-section__eyebrow">E-Governance Direct Access</span>
+      <h2 class="services-section__heading">Important Government Portals</h2>
+    </div>
+
+    <div class="services-search">
+      <i class="fa-solid fa-magnifying-glass services-search__icon" aria-hidden="true"></i>
+      <input 
+        type="search" 
+        id="portal-search" 
+        class="services-search__input" 
+        placeholder="Search services or schemes..." 
+        aria-label="Search government services" 
+      />
+    </div>
+  </header>
+
+  <div class="services-divider" role="separator"></div>
+
+  <!-- Cards Grid Container -->
+  <div class="service-card-grid" id="portal-grid">
+    
+    <!-- 1. Farmers / Krishi -->
+    <article class="service-card">
+      <header class="service-card__header">
+        <div class="service-card__icon">
+          <i class="fa-solid fa-tractor" aria-hidden="true"></i>
+        </div>
+        <span class="service-card__badge">Farmers / Krishi</span>
+      </header>
+      <div class="service-card__body">
+        <h3 class="service-card__title">PM-Kisan Samman Nidhi</h3>
+        <p class="service-card__desc">
+          Check installment status, e-KYC status, beneficiary list, and new farmer self-registration under the national income support scheme.
+        </p>
+      </div>
+      <footer class="service-card__footer">
+        <a href="https://pmkisan.gov.in" target="_blank" rel="noopener noreferrer" class="service-card__domain">
+          <i class="fa-solid fa-link" aria-hidden="true"></i>
+          <span>pmkisan.gov.in</span>
+        </a>
+        <a href="https://pmkisan.gov.in" target="_blank" rel="noopener noreferrer" class="service-card__action">
+          <span>Open Portal</span>
+          <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </article>
+
+    <!-- 2. Land Records -->
+    <article class="service-card">
+      <header class="service-card__header">
+        <div class="service-card__icon">
+          <i class="fa-solid fa-map" aria-hidden="true"></i>
+        </div>
+        <span class="service-card__badge">Land Records</span>
+      </header>
+      <div class="service-card__body">
+        <h3 class="service-card__title">Digital Land Records (Bhulekh)</h3>
+        <p class="service-card__desc">
+          View certified digital copies of Khasra, Khatauni, RoR, 7/12 land extract, village map boundaries, and ownership details online.
+        </p>
+      </div>
+      <footer class="service-card__footer">
+        <a href="https://bhulekh.gov.in" target="_blank" rel="noopener noreferrer" class="service-card__domain">
+          <i class="fa-solid fa-link" aria-hidden="true"></i>
+          <span>bhulekh.gov.in</span>
+        </a>
+        <a href="https://bhulekh.gov.in" target="_blank" rel="noopener noreferrer" class="service-card__action">
+          <span>Open Portal</span>
+          <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </article>
+
+    <!-- 3. Rural Employment -->
+    <article class="service-card">
+      <header class="service-card__header">
+        <div class="service-card__icon">
+          <i class="fa-solid fa-person-digging" aria-hidden="true"></i>
+        </div>
+        <span class="service-card__badge">Employment</span>
+      </header>
+      <div class="service-card__body">
+        <h3 class="service-card__title">MGNREGA Rural Employment</h3>
+        <p class="service-card__desc">
+          Check active Job Cards, muster rolls, wage payment records, gram panchayat work status, and submit demand for guaranteed wage labor.
+        </p>
+      </div>
+      <footer class="service-card__footer">
+        <a href="https://nrega.nic.in" target="_blank" rel="noopener noreferrer" class="service-card__domain">
+          <i class="fa-solid fa-link" aria-hidden="true"></i>
+          <span>nrega.nic.in</span>
+        </a>
+        <a href="https://nrega.nic.in" target="_blank" rel="noopener noreferrer" class="service-card__action">
+          <span>Open Portal</span>
+          <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </article>
+
+    <!-- 4. Food & Supplies -->
+    <article class="service-card">
+      <header class="service-card__header">
+        <div class="service-card__icon">
+          <i class="fa-solid fa-bowl-rice" aria-hidden="true"></i>
+        </div>
+        <span class="service-card__badge">Food &amp; Supplies</span>
+      </header>
+      <div class="service-card__body">
+        <h3 class="service-card__title">NFSA Ration Card Portal</h3>
+        <p class="service-card__desc">
+          Check monthly ration quota entitlement, One Nation One Ration status, Aadhaar seeding, fair price shop locator, and new family member scheme.
+        </p>
+      </div>
+      <footer class="service-card__footer">
+        <a href="https://nfsa.gov.in" target="_blank" rel="noopener noreferrer" class="service-card__domain">
+          <i class="fa-solid fa-link" aria-hidden="true"></i>
+          <span>nfsa.gov.in</span>
+        </a>
+        <a href="https://nfsa.gov.in" target="_blank" rel="noopener noreferrer" class="service-card__action">
+          <span>Open Portal</span>
+          <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </article>
+
+    <!-- 5. Health & Wellness -->
+    <article class="service-card">
+      <header class="service-card__header">
+        <div class="service-card__icon">
+          <i class="fa-solid fa-heart-pulse" aria-hidden="true"></i>
+        </div>
+        <span class="service-card__badge">Health &amp; Wellness</span>
+      </header>
+      <div class="service-card__body">
+        <h3 class="service-card__title">Ayushman Bharat (PM-JAY)</h3>
+        <p class="service-card__desc">
+          Download your Ayushman Golden Card, check eligibility for ₹5 Lakh free medical cover, and find nearby empaneled government &amp; private hospitals.
+        </p>
+      </div>
+      <footer class="service-card__footer">
+        <a href="https://beneficiary.nha.gov.in" target="_blank" rel="noopener noreferrer" class="service-card__domain">
+          <i class="fa-solid fa-link" aria-hidden="true"></i>
+          <span>beneficiary.nha.gov.in</span>
+        </a>
+        <a href="https://beneficiary.nha.gov.in" target="_blank" rel="noopener noreferrer" class="service-card__action">
+          <span>Open Portal</span>
+          <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </article>
+
+    <!-- 6. Pensions & Social Welfare -->
+    <article class="service-card">
+      <header class="service-card__header">
+        <div class="service-card__icon">
+          <i class="fa-solid fa-hands-holding-child" aria-hidden="true"></i>
+        </div>
+        <span class="service-card__badge">Pensions &amp; Welfare</span>
+      </header>
+      <div class="service-card__body">
+        <h3 class="service-card__title">NSAP Pension Portal</h3>
+        <p class="service-card__desc">
+          Track status of Old Age Pension, Widow/Divorcee Pension, and Disability Pension payments transferred directly to DBT bank accounts.
+        </p>
+      </div>
+      <footer class="service-card__footer">
+        <a href="https://nsap.nic.in" target="_blank" rel="noopener noreferrer" class="service-card__domain">
+          <i class="fa-solid fa-link" aria-hidden="true"></i>
+          <span>nsap.nic.in</span>
+        </a>
+        <a href="https://nsap.nic.in" target="_blank" rel="noopener noreferrer" class="service-card__action">
+          <span>Open Portal</span>
+          <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+        </a>
+      </footer>
+    </article>
+
+  </div>
+</section>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</html>
