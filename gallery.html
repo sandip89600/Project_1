@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vani | About Vani Village</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    referrerpolicy="no-referrer">
+
+  <!-- Your complete stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Notice Bar -->
+  <div class="notice">
+    <h3>Notice / सूचना</h3>
+    <marquee behavior="scroll" direction="left">
+      💧 Water supply pipeline maintenance scheduled on Thursday 2 PM - 6 PM /
+      रविवारी सकाळी ७ वाजता रामकुंड परिसरात विशेष स्वच्छता मोहीम.
+    </marquee>
+    <button class="language-toggle" type="button" aria-label="Switch to Marathi">मराठी</button>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="heading">
+    <a href="index.html" aria-label="Vani home">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="Vani Logo">
+        <h2>I <i class="fa-solid fa-heart text-danger"></i> Vani</h2>
+      </div>
+    </a>
+
+    <nav class="navbar" id="navbar" aria-label="Main navigation">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Vani</a></li>
+        <li><a href="services.html">Rural Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle navigation" aria-expanded="false"
+        aria-controls="nav-links" type="button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Village Temples Section -->
+    <section class="gallery">
+      <div class="gallery-header">
+        <h3 class="section-title">Village Temples</h3>
+        <div class="cards-wrapper">
+
+          <!-- Card 1: Text Left, Images Right -->
+          <div class="g-card">
+            <div class="g-info">
+              <h2>Shree Jagadamba Mata Mandir</h2>
+              <a href="https://maps.app.goo.gl/vgGCrZVmW9DCvV9j6" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-location-dot"></i> Vani Gaon
+              </a>
+              <p>
+                This temple is located in the main market area of Vani village. According to the Devi Bhagavata, this temple in Vani village is considered the original seat (or 'sister shrine') of Goddess Saptashrungi. Local belief holds that a pilgrimage to Saptashrungi Garh remains incomplete unless one visits the Jagadamba Mata temple in Vani to offer prayers.
+              </p>
+            </div>
+            <div class="g-images">
+              <img src="assets/gall_01.jfif" alt="Mandir Front" class="img-main">
+              <div class="sub-images">
+                <img src="assets/gall03.jfif" alt="Sanctum">
+                <img src="assets/gall04.jfif" alt="Murti">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Anganwadi & Community Services Section -->
+    <section class="anganwadi-clean-section">
+      <div class="container">
+        <div class="section-badge">COMMUNITY SERVICES</div>
+        <h2 class="main-title">Village Anganwadi & Child Care Center</h2>
+      </div>
+        <div class="clean-card">
+          <!-- Left Info Area -->
+          <div class="info-content">
+            <h3>Shree Jagadamba Anganwadi Center</h3>
+            
+            <div class="tag-row">
+              <span class="tag loc-tag"><i class="fa-solid fa-location-dot"></i> Vani Gaon</span>
+              <span class="tag time-tag"><i class="fa-regular fa-clock"></i> Open • 9:00 AM - 4:00 PM</span>
+            </div>
+
+            <p class="desc">
+              Nurturing the future of Vani village by providing critical early childhood care, nutrition, healthcare, and growth monitoring. Operated by dedicated community sevikas, our center offers a safe, joyful environment for play-based early learning and maternal support.
+            </p>
+
+            <!-- Stat Cards -->
+            <div class="stats-grid">
+              <div class="stat-box">
+                <span class="stat-icon">👶</span>
+                <strong>45+ Kids</strong>
+                <small>Active</small>
+              </div>
+              <div class="stat-box">
+                <span class="stat-icon">🍲</span>
+                <strong>Nutritious</strong>
+                <small>Meals Daily</small>
+              </div>
+              <div class="stat-box">
+                <span class="stat-icon">🏥</span>
+                <strong>Free Health</strong>
+                <small>Checkups</small>
+              </div>
+            </div>
+
+            <!-- CTA Actions -->
+            <div class="action-buttons">
+              <a href="#services" class="btn btn-primary">Explore Services →</a>
+              <a href="#contact" class="btn btn-secondary">Contact Center</a>
+            </div>
+          </div>
+
+          <!-- Right 5-Photo Mosaic Grid -->
+          <div class="gallery-mosaic">
+            <!-- Large Top Banner Image -->
+            <div class="img-hero">
+              <img src="assets/sch_01.webp" alt="Anganwadi Main Gathering">
+            </div>
+            <!-- 4 Sub Images in 2x2 Grid -->
+            <div class="sub-grid">
+              <img src="assets/sch_02.jfif" alt="Learning Activity">
+              <img src="assets/sch_03.jfif" alt="Nutritious Meal">
+              <img src="assets/sch_04.jfif" alt="Health Checkup">
+              <img src="assets/sch_05.jfif" alt="Classroom Fun">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Zilla Parishad Primary School Section (Reversed Layout) -->
+<section class="anganwadi-clean-section zp-school-section">
+    <div class="container">
+        <!-- Section Title Header -->
+        <div class="section-header">
+            <div class="section-badge">EDUCATION & LEARNING</div>
+            <h2 class="main-title">Zilla Parishad Primary School</h2>
+        </div>
+
+        <!-- clean-card with "reverse" class (Left: Images, Right: Info) -->
+        <div class="clean-card reverse">
+            <!-- Left 5-Photo Mosaic Grid -->
+            <div class="gallery-mosaic">
+                <div class="img-hero">
+                    <img src="assets/zpsch1.jpg" alt="Z.P. School Campus">
+                    <br>
+                    <img src="assets/zp03.jfif" alt="Digital Classroom">
+                </div>
+                <div class="sub-grid">
+                </div>
+            </div>
+
+            <!-- Right Info Area -->
+            <div class="info-content">
+                <h3>Z.P. Prathmik Shala - Vani</h3>
+                
+                <div class="tag-row">
+                    <span class="tag loc-tag"><i class="fa-solid fa-location-dot"></i> Vani Gaon</span>
+                    <span class="tag time-tag"><i class="fa-regular fa-clock"></i> Mon - Sat • 10:00 AM - 5:00 PM</span>
+                </div>
+
+                <p class="desc">
+                    Empowering the young minds of Vani with quality primary education, digital learning classrooms, and co-curricular programs. Equipped with free textbook distribution, mid-day meals, sports training, and dedicated teachers fostering all-round student development.
+                </p>
+
+                <!-- Stat Cards -->
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-icon">🎓</span>
+                        <strong>250+</strong>
+                        <small>Students</small>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-icon">💻</span>
+                        <strong>Digital</strong>
+                        <small>E-Learning</small>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-icon">🏆</span>
+                        <strong>1st to 7th</strong>
+                        <small>Standards</small>
+                    </div>
+                </div>
+
+                <!-- CTA Actions -->
+                <div class="action-buttons">
+                    <a href="#academics" class="btn btn-primary">School Programs →</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Headmaster</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Vidyalaya & Junior College Section (8th to 12th) -->
+<section class="anganwadi-clean-section vidyalaya-section">
+    <div class="container">
+        <!-- Section Title Header -->
+        <div class="section-header">
+            <div class="section-badge">HIGHER SECONDARY & JUNIOR COLLEGE</div>
+            <h2 class="main-title">Shree Jagadamba Vidyalaya & Kanishtha Mahavidyalaya</h2>
+        </div>
+
+        <div class="clean-card">
+            <!-- Left Info Area -->
+            <div class="info-content">
+                <h3>Vani Secondary & Higher Secondary Vidyalaya</h3>
+                
+                <div class="tag-row">
+                    <span class="tag loc-tag"><i class="fa-solid fa-location-dot"></i> Near Main Road, Vani</span>
+                    <span class="tag time-tag"><i class="fa-regular fa-clock"></i> Mon - Sat • 7:30 AM - 1:30 PM</span>
+                </div>
+
+                <p class="desc">
+                    A premier rural educational hub imparting secondary (8th–10th) and higher secondary junior college education (11th & 12th Arts, Commerce, and Science streams). Fully equipped with dedicated science laboratories, a digital library, computer facilities, NCC, and sports coaching for board exam preparation and competitive guidance.
+                </p>
+
+                <!-- Stat Cards -->
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-icon">🏫</span>
+                        <strong>8th to 12th</strong>
+                        <small>State Board</small>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-icon">🔬</span>
+                        <strong>Sci / Comm / Arts</strong>
+                        <small>Junior College</small>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-icon">🎯</span>
+                        <strong>1200+</strong>
+                        <small>Total Students</small>
+                    </div>
+                </div>
+
+                <!-- CTA Actions -->
+                <div class="action-buttons">
+                    <a href="#admissions" class="btn btn-primary">Admissions & Streams →</a>
+                    <a href="#faculty" class="btn btn-secondary">Contact Principal</a>
+                </div>
+            </div>
+
+            <!-- Right 5-Photo Mosaic Grid -->
+            <div class="gallery-mosaic">
+                <!-- Large Top Banner Image -->
+                <div class="img-hero">
+                    <img src="assets/hi01.jfif" alt="Vidyalaya School Main Campus Building">
+                </div>
+                <!-- 4 Sub Images in 2x2 Grid -->
+                <div class="sub-grid">
+                    <img src="assets/hi02.jfif" alt="Physics & Chemistry Science Lab">
+                    <img src="assets/hi03.jfif" alt="Digital IT & Computer Lab">
+                    <img src="assets/hi04.jfif" alt="Reading Room & Library">
+                    <img src="assets/hi05.jfif" alt="Sports Ground & Parade">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Culture & Festivals Section -->
+<section class="culture-section" id="festivals">
+    <div class="container">
+        <div class="culture-header">
+            <span class="culture-subbadge">TRADITION & HERITAGE</span>
+            <h2 class="culture-title">Cultural Heritage & Festivals of Vani</h2>
+            <p class="culture-subtitle">
+                Experience the spiritual energy, folk traditions, and grand celebrations that bring the whole community together throughout the year.
+            </p>
+        </div>
+
+        <!-- Bento Grid of Festivals -->
+        <div class="festival-bento">
+
+            <!-- Card 1: Featured Grand Festival (Spans 2 Columns on Desktop) -->
+            <div class="festival-card featured">
+                <div class="fest-image-bg">
+                    <img src="assets/cul01.jfif" alt="Chaitra Yatra & Navratri">
+                    <div class="fest-overlay"></div>
+                </div>
+                <div class="fest-content">
+                    <div class="fest-meta">
+                        <span class="fest-tag major"><i class="fa-solid fa-om"></i> Maha Utsav</span>
+                        <span class="fest-date"><i class="fa-regular fa-calendar"></i> Chaitra & Ashwin (Navratri)</span>
+                    </div>
+                    <h3>Saptashrungi Mata Chaitra Yatra & Navratri</h3>
+                    <p>
+                        The biggest spiritual gathering in the region. Lakhs of devotees pass through Vani Gaon to take blessings at Shree Jagadamba Mata before heading up the holy steps of Saptashrungi Garh. The village is filled with devotional bhajans, grand purnima fairs, and non-stop anna-daan.
+                    </p>
+                    <div class="fest-highlights">
+                        <span>🚩 Palkhi Sohala</span>
+                        <span>🥁 Dhol-Tasha Phatak</span>
+                        <span>🍲 24x7 Mahaprasad</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Bail Pola (Rural Farmer Culture) -->
+            <div class="festival-card">
+                <div class="fest-thumb">
+                    <img src="assets/cul06.jfif" alt="Bail Pola Festival">
+                    <span class="fest-tag green"><i class="fa-solid fa-seedling"></i> Agro Heritage</span>
+                </div>
+                <div class="fest-body">
+                    <span class="fest-date"><i class="fa-regular fa-calendar"></i> Shravan Vadya Amavasya</span>
+                    <h3>Bail Pola & Krishi Utsav</h3>
+                    <p>
+                        A tribute to the farming culture of Vani. Farmers decorate their bullocks with colourful cloth, jhul, bells, and vermilion, followed by an evening village procession through the market.
+                    </p>
+                    <ul class="fest-points">
+                        <li><i class="fa-solid fa-check"></i> Traditional Toran Bandhan</li>
+                        <li><i class="fa-solid fa-check"></i> Village-wide bullock parade</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card 3: Shiv Jayanti -->
+            <div class="festival-card">
+                <div class="fest-thumb">
+                    <img src="assets/cul05.jfif" alt="Shivaji Maharaj Jayanti">
+                    <span class="fest-tag saffron"><i class="fa-solid fa-shield-halved"></i> Historic</span>
+                </div>
+                <div class="fest-body">
+                    <span class="fest-date"><i class="fa-regular fa-calendar"></i> 19th February</span>
+                    <h3>Chhatrapati Shivaji Maharaj Jayanti</h3>
+                    <p>
+                        Celebrated with intense passion across all talukas and alleys. A grand morning bike rally, traditional lezim performances by local youth, and saffron flags honoring Maratha history.
+                    </p>
+                    <ul class="fest-points">
+                        <li><i class="fa-solid fa-check"></i> Grand Shiv Jyot Yatra</li>
+                        <li><i class="fa-solid fa-check"></i> Lezim & Mardani Khel displays</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card 4: Ganeshotsav & Dahi Handi -->
+            <div class="festival-card">
+                <div class="fest-thumb">
+                    <img src="assets/cul03.jfif" alt="Ganeshotsav Celebration">
+                    <span class="fest-tag orange"><i class="fa-solid fa-bell"></i> 10-Day Festival</span>
+                </div>
+                <div class="fest-body">
+                    <span class="fest-date"><i class="fa-regular fa-calendar"></i> Bhadrapada Shukla Chaturthi</span>
+                    <h3>Vani Sarvajanik Ganeshotsav</h3>
+                    <p>
+                        10 days of community togetherness, decorative social tableaus (dekhawe), blood donation drives, street dramas, and an unforgettable Visarjan Mirwanuk.
+                    </p>
+                    <ul class="fest-points">
+                        <li><i class="fa-solid fa-check"></i> Cultural Rangoli Competitions</li>
+                        <li><i class="fa-solid fa-check"></i> Dahi Handi Human Pyramids</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+  </main>
+
+      <footer class="footer-portal">
+        <div class="footer-container">
+            <!-- Brand / About Column -->
+            <div class="footer-col brand-col">
+                <div class="footer-brand">
+                    <span class="brand-icon">🏛️</span>
+                    <h3>Gram Panchayat Portal</h3>
+                </div>
+                <p class="footer-desc">
+                    Official unified citizen portal for Vani Village, Dindori Tehsil, Nashik District. Dedicated to
+                    rural governance, farming welfare, and local citizen services.
+                </p>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="footer-col links-col">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="/about.html">About Vani</a></li>
+                    <li><a href="services.html">Rural Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Administrative Address Column -->
+            <div class="footer-col address-col">
+                <h4>GRAM PANCHAYAT OFFICE</h4>
+                <p>Gram Panchayat Karyalaya, Main Road,<br>Near Old Bus Stand, At Post Vani,<br>Taluka Dindori, District
+                    Nashik – 422204.</p>
+                <p class="footer-email">Email: <a
+                        href="mailto:grampanchayat@vanivillage.in">grampanchayat@vanivillage.in</a></p>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            <p>© Gram Panchayat Vani, Dindori Tehsil, Nashik District. All rights reserved.</p>
+            <p class="footer-tagline">Designed for Citizens, Pilgrims & Farmers of Vani Village.</p>
+        </div>
+    </footer>
+
+  <!-- Scripts placed before closing body -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
